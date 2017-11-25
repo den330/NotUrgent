@@ -7,11 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A89B06861FCA0EBE00C556B4 /* TargetListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A89B06851FCA0EBE00C556B4 /* TargetListViewController.swift */; };
+		A89B06881FCA0ED600C556B4 /* TargetListSB.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A89B06871FCA0ED600C556B4 /* TargetListSB.storyboard */; };
+		A89B068A1FCA0FDA00C556B4 /* TargetDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A89B06891FCA0FDA00C556B4 /* TargetDetailViewController.swift */; };
+		A89B068C1FCA0FEB00C556B4 /* TargetDetailSB.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A89B068B1FCA0FEB00C556B4 /* TargetDetailSB.storyboard */; };
 		A8FEF8891FC95011003E5828 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8FEF8881FC95011003E5828 /* AppDelegate.swift */; };
 		A8FEF88B1FC95011003E5828 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8FEF88A1FC95011003E5828 /* ViewController.swift */; };
-		A8FEF88E1FC95011003E5828 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8FEF88C1FC95011003E5828 /* Main.storyboard */; };
 		A8FEF8901FC95011003E5828 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8FEF88F1FC95011003E5828 /* Assets.xcassets */; };
-		A8FEF8931FC95011003E5828 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8FEF8911FC95011003E5828 /* LaunchScreen.storyboard */; };
 		B4F8C1ED0C8902CE8F80B634 /* Pods_NotUrgent.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50FC067B37E6CD35AE8993E1 /* Pods_NotUrgent.framework */; };
 /* End PBXBuildFile section */
 
@@ -19,12 +21,14 @@
 		09D8F9D11731D7B69B6998DD /* Pods-NotUrgent.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NotUrgent.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NotUrgent/Pods-NotUrgent.debug.xcconfig"; sourceTree = "<group>"; };
 		16B6D9CEC1626FFB501D0CFF /* Pods-NotUrgent.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NotUrgent.release.xcconfig"; path = "Pods/Target Support Files/Pods-NotUrgent/Pods-NotUrgent.release.xcconfig"; sourceTree = "<group>"; };
 		50FC067B37E6CD35AE8993E1 /* Pods_NotUrgent.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NotUrgent.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A89B06851FCA0EBE00C556B4 /* TargetListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TargetListViewController.swift; sourceTree = "<group>"; };
+		A89B06871FCA0ED600C556B4 /* TargetListSB.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = TargetListSB.storyboard; sourceTree = "<group>"; };
+		A89B06891FCA0FDA00C556B4 /* TargetDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TargetDetailViewController.swift; sourceTree = "<group>"; };
+		A89B068B1FCA0FEB00C556B4 /* TargetDetailSB.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = TargetDetailSB.storyboard; sourceTree = "<group>"; };
 		A8FEF8851FC95011003E5828 /* NotUrgent.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NotUrgent.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8FEF8881FC95011003E5828 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A8FEF88A1FC95011003E5828 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		A8FEF88D1FC95011003E5828 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A8FEF88F1FC95011003E5828 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		A8FEF8921FC95011003E5828 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A8FEF8941FC95011003E5828 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -72,10 +76,12 @@
 			children = (
 				A8FEF8881FC95011003E5828 /* AppDelegate.swift */,
 				A8FEF88A1FC95011003E5828 /* ViewController.swift */,
-				A8FEF88C1FC95011003E5828 /* Main.storyboard */,
 				A8FEF88F1FC95011003E5828 /* Assets.xcassets */,
-				A8FEF8911FC95011003E5828 /* LaunchScreen.storyboard */,
 				A8FEF8941FC95011003E5828 /* Info.plist */,
+				A89B06851FCA0EBE00C556B4 /* TargetListViewController.swift */,
+				A89B06871FCA0ED600C556B4 /* TargetListSB.storyboard */,
+				A89B06891FCA0FDA00C556B4 /* TargetDetailViewController.swift */,
+				A89B068B1FCA0FEB00C556B4 /* TargetDetailSB.storyboard */,
 			);
 			path = NotUrgent;
 			sourceTree = "<group>";
@@ -150,9 +156,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A8FEF8931FC95011003E5828 /* LaunchScreen.storyboard in Resources */,
+				A89B06881FCA0ED600C556B4 /* TargetListSB.storyboard in Resources */,
+				A89B068C1FCA0FEB00C556B4 /* TargetDetailSB.storyboard in Resources */,
 				A8FEF8901FC95011003E5828 /* Assets.xcassets in Resources */,
-				A8FEF88E1FC95011003E5828 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -165,9 +171,12 @@
 			files = (
 			);
 			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-NotUrgent/Pods-NotUrgent-resources.sh",
+				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -181,11 +190,15 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-NotUrgent/Pods-NotUrgent-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
 				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
 				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
 			);
@@ -219,31 +232,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A89B068A1FCA0FDA00C556B4 /* TargetDetailViewController.swift in Sources */,
 				A8FEF88B1FC95011003E5828 /* ViewController.swift in Sources */,
+				A89B06861FCA0EBE00C556B4 /* TargetListViewController.swift in Sources */,
 				A8FEF8891FC95011003E5828 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		A8FEF88C1FC95011003E5828 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A8FEF88D1FC95011003E5828 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		A8FEF8911FC95011003E5828 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A8FEF8921FC95011003E5828 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		A8FEF8951FC95011003E5828 /* Debug */ = {

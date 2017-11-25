@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  TargetListViewController.swift
 //  NotUrgent
 //
 //  Created by Yaxin Yuan on 2017-11-25.
@@ -8,10 +8,12 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class TargetListViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
     }
-}
 
+
+
+}
