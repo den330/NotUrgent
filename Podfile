@@ -8,6 +8,7 @@ pod 'RxSwift',    '~> 4.0'
 pod 'RxCocoa',    '~> 4.0'
 pod 'RealmSwift'
 pod 'GoogleMaps'
+pod "GTProgressBar"
 
   # Pods for NotUrgent
 

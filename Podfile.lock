@@ -4,6 +4,7 @@ PODS:
   - GoogleMaps/Base (2.5.0)
   - GoogleMaps/Maps (2.5.0):
     - GoogleMaps/Base
+  - GTProgressBar (0.2.3)
   - Realm (3.0.2):
     - Realm/Headers (= 3.0.2)
   - Realm/Headers (3.0.2)
@@ -15,17 +16,19 @@ PODS:
 
 DEPENDENCIES:
   - GoogleMaps
+  - GTProgressBar
   - RealmSwift
   - RxCocoa (~> 4.0)
   - RxSwift (~> 4.0)
 
 SPEC CHECKSUMS:
   GoogleMaps: c087b8e5dfe87ca6ebf59adb9b4894a4146bec4f
+  GTProgressBar: ecfa9f2dfaca1b9b35811925f5bd53516ee591ae
   Realm: 6f23fd1f178a09342eac21bfa7c2bf4312a7a180
   RealmSwift: 695393add1b8f9d5fa75dd16e6355cf3935f71e2
   RxCocoa: d62846ca96495d862fa4c59ea7d87e5031d7340e
   RxSwift: fd680d75283beb5e2559486f3c0ff852f0d35334
 
-PODFILE CHECKSUM: 3150177d427a3e1f6a9fadf4daf4631be649a2f8
+PODFILE CHECKSUM: e258b789e6f119f39e6f67825a7097d8e407069d
 
 COCOAPODS: 1.3.1
