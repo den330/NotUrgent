@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A815845C1FCA47D50080F9F9 /* TargetListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A815845B1FCA47D50080F9F9 /* TargetListViewModel.swift */; };
 		A89B06861FCA0EBE00C556B4 /* TargetListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A89B06851FCA0EBE00C556B4 /* TargetListViewController.swift */; };
 		A89B06881FCA0ED600C556B4 /* TargetListSB.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A89B06871FCA0ED600C556B4 /* TargetListSB.storyboard */; };
 		A89B068A1FCA0FDA00C556B4 /* TargetDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A89B06891FCA0FDA00C556B4 /* TargetDetailViewController.swift */; };
@@ -24,6 +25,7 @@
 		09D8F9D11731D7B69B6998DD /* Pods-NotUrgent.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NotUrgent.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NotUrgent/Pods-NotUrgent.debug.xcconfig"; sourceTree = "<group>"; };
 		16B6D9CEC1626FFB501D0CFF /* Pods-NotUrgent.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NotUrgent.release.xcconfig"; path = "Pods/Target Support Files/Pods-NotUrgent/Pods-NotUrgent.release.xcconfig"; sourceTree = "<group>"; };
 		50FC067B37E6CD35AE8993E1 /* Pods_NotUrgent.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NotUrgent.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A815845B1FCA47D50080F9F9 /* TargetListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TargetListViewModel.swift; sourceTree = "<group>"; };
 		A89B06851FCA0EBE00C556B4 /* TargetListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TargetListViewController.swift; sourceTree = "<group>"; };
 		A89B06871FCA0ED600C556B4 /* TargetListSB.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = TargetListSB.storyboard; sourceTree = "<group>"; };
 		A89B06891FCA0FDA00C556B4 /* TargetDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TargetDetailViewController.swift; sourceTree = "<group>"; };
@@ -91,6 +93,7 @@
 		A8BD1FD41FCA33DE00C53F59 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				A815845B1FCA47D50080F9F9 /* TargetListViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -286,6 +289,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A89B068A1FCA0FDA00C556B4 /* TargetDetailViewController.swift in Sources */,
+				A815845C1FCA47D50080F9F9 /* TargetListViewModel.swift in Sources */,
 				A89B06861FCA0EBE00C556B4 /* TargetListViewController.swift in Sources */,
 				A8FEF8891FC95011003E5828 /* AppDelegate.swift in Sources */,
 				A8BD1FDD1FCA3DA800C53F59 /* TargetListCell.swift in Sources */,

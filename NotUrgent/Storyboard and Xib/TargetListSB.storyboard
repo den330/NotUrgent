@@ -37,6 +37,10 @@
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="sdZ-jj-bdf">
                                 <rect key="frame" x="0.0" y="64" width="375" height="603"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="LJa-qt-w5P" id="2Bp-JF-oGZ"/>
+                                    <outlet property="delegate" destination="LJa-qt-w5P" id="NiJ-m1-5r1"/>
+                                </connections>
                             </tableView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -48,7 +52,10 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="Zkj-iI-hKz"/>
                     </view>
-                    <navigationItem key="navigationItem" id="xoI-9W-d7Z"/>
+                    <navigationItem key="navigationItem" id="xoI-9W-d7Z">
+                        <barButtonItem key="leftBarButtonItem" systemItem="edit" id="lND-Vs-KR4"/>
+                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="Zdd-q9-c0s"/>
+                    </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="f4Y-AC-ibz" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
