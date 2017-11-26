@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Avenir.ttc">
+            <string>Avenir-Book</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="117" id="hj8-QD-Xkp" customClass="TargetListCell" customModule="NotUrgent" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="117"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="hj8-QD-Xkp" id="fyd-TE-Vuk">
+                <rect key="frame" x="0.0" y="0.0" width="375" height="116.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vQW-H5-2uP" userLabel="TargetNameLabel">
+                        <rect key="frame" x="16" y="11" width="56" height="31.5"/>
+                        <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="23"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pTt-0u-p6k" userLabel="TriggerTimeContainer">
+                        <rect key="frame" x="16" y="51" width="343" height="23.5"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Trigger Time:" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6Uk-x9-Dqz" userLabel="TriggerTimeLabel">
+                                <rect key="frame" x="0.0" y="0.0" width="101" height="23.5"/>
+                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="8AM, Sept 12, 2017" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PAE-cu-13g" userLabel="TriggerTime">
+                                <rect key="frame" x="191" y="0.0" width="152" height="23.5"/>
+                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="6Uk-x9-Dqz" firstAttribute="leading" secondItem="pTt-0u-p6k" secondAttribute="leading" id="3hD-8n-c2q"/>
+                            <constraint firstItem="PAE-cu-13g" firstAttribute="top" secondItem="pTt-0u-p6k" secondAttribute="top" id="4rz-Vb-iBe"/>
+                            <constraint firstAttribute="bottom" secondItem="6Uk-x9-Dqz" secondAttribute="bottom" id="9i7-PC-46B"/>
+                            <constraint firstItem="6Uk-x9-Dqz" firstAttribute="top" secondItem="pTt-0u-p6k" secondAttribute="top" id="FuL-HQ-NSC"/>
+                            <constraint firstAttribute="bottom" secondItem="PAE-cu-13g" secondAttribute="bottom" id="Qli-vZ-iQt"/>
+                            <constraint firstAttribute="trailing" secondItem="PAE-cu-13g" secondAttribute="trailing" id="rUj-63-tcC"/>
+                        </constraints>
+                    </view>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qXO-ur-gKf" userLabel="TriggerPlaceContainer">
+                        <rect key="frame" x="16" y="82.5" width="343" height="23.5"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Trigger Place:" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Sch-OZ-tPi" userLabel="TriggerPlaceLabel">
+                                <rect key="frame" x="0.0" y="0.0" width="104" height="24"/>
+                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="365 Albert Street, Waterloo" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="g4j-OW-i1p" userLabel="TriggerPlace">
+                                <rect key="frame" x="134.5" y="0.0" width="208.5" height="23.5"/>
+                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="Sch-OZ-tPi" firstAttribute="top" secondItem="qXO-ur-gKf" secondAttribute="top" id="5f1-bL-Wz2"/>
+                            <constraint firstItem="g4j-OW-i1p" firstAttribute="top" secondItem="qXO-ur-gKf" secondAttribute="top" id="Nwd-EN-Fki"/>
+                            <constraint firstAttribute="trailing" secondItem="g4j-OW-i1p" secondAttribute="trailing" id="oJ2-bA-yWT"/>
+                            <constraint firstAttribute="bottom" secondItem="g4j-OW-i1p" secondAttribute="bottom" id="r5l-e0-P6n"/>
+                            <constraint firstItem="Sch-OZ-tPi" firstAttribute="leading" secondItem="qXO-ur-gKf" secondAttribute="leading" id="sjO-N6-Ftv"/>
+                            <constraint firstAttribute="bottom" secondItem="Sch-OZ-tPi" secondAttribute="bottom" id="tJd-9Y-nav"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="pTt-0u-p6k" firstAttribute="trailing" secondItem="fyd-TE-Vuk" secondAttribute="trailingMargin" id="1af-fi-6xf"/>
+                    <constraint firstItem="qXO-ur-gKf" firstAttribute="leading" secondItem="pTt-0u-p6k" secondAttribute="leading" id="Jv0-Wj-cbr"/>
+                    <constraint firstItem="vQW-H5-2uP" firstAttribute="top" secondItem="fyd-TE-Vuk" secondAttribute="topMargin" id="PRS-Sn-MGg"/>
+                    <constraint firstItem="pTt-0u-p6k" firstAttribute="top" secondItem="vQW-H5-2uP" secondAttribute="bottom" constant="8.5" id="XYf-JV-cF1"/>
+                    <constraint firstItem="qXO-ur-gKf" firstAttribute="trailing" secondItem="fyd-TE-Vuk" secondAttribute="trailingMargin" id="f2R-QG-N4w"/>
+                    <constraint firstItem="pTt-0u-p6k" firstAttribute="leading" secondItem="fyd-TE-Vuk" secondAttribute="leadingMargin" id="rJM-Eh-Pb9"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="qXO-ur-gKf" secondAttribute="bottom" id="sD8-cQ-fXM"/>
+                    <constraint firstItem="vQW-H5-2uP" firstAttribute="leading" secondItem="fyd-TE-Vuk" secondAttribute="leadingMargin" id="ycN-HJ-oLw"/>
+                    <constraint firstItem="qXO-ur-gKf" firstAttribute="top" secondItem="pTt-0u-p6k" secondAttribute="bottom" constant="8" id="zUC-zy-CPK"/>
+                </constraints>
+            </tableViewCellContentView>
+            <point key="canvasLocation" x="23" y="-73"/>
+        </tableViewCell>
+    </objects>
+</document>
